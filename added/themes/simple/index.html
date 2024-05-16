@@ -1,0 +1,10 @@
+{% extends "simple/base.html" %}
+{% from 'simple/icons.html' import icon_big %}
+{% block content %}
+<div class="index">
+    <div class="title"><h1>1ndev Search Engine</h1></div>
+    <a href="https://videos.1ndev.com" target="_blank">Videos</a> / <a href="https://music.1ndev.com/" target="_blank">Music</a> / <a href="https://shop.1ndev.com" target="_blank">Shop</a> / <a href="https://blog.1ndev.com" target="_blank">Blog</a> / <a href="https://wiki.1ndev.com" target="_blank">Wiki</a> / <a href="https://files.1ndev.com" target="_blank">Tools</a>
+    <div></div>
+    {% include 'simple/simple_search.html' %}
+</div>
+{% endblock %}
